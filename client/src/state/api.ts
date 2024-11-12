@@ -25,7 +25,7 @@ export enum Priority {
 
 export interface User {
   userId?: number;
-  userName: string;
+  username: string;
   email: string;
   profilePictureUrl?: string;
   cognitoId?: string;
